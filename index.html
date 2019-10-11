@@ -12,10 +12,15 @@
 </head>
 
 <body>
-    <h1>IOT Fan Switch</h1>
-    <h3 id="status">The fan is currently off!</h3>
-    <div >
-        <button id="off">Off</button><button id="1">1</button><button id="2">2</button><button id="3">3</button>
+    <div class="container-fluid text-center">
+        <h1 class="jumbotron">IOT Fan Switch</h1>
+        <div>
+            <h3 id="h3">The fan is currently off!</h3><br>
+            <button class="btn btn-danger btn-lg" id="off">Off</button>
+            <button class="btn btn-success btn-lg" id="1">1</button>
+            <button class="btn btn-success btn-lg" id="2">2</button>
+            <button class="btn btn-success btn-lg" id="3">3</button>
+        </div>
     </div>
     <script src="/browserMqtt.js"></script>
     <script src="/controller.js"></script>
